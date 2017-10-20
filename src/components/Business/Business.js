@@ -1,5 +1,5 @@
 import React from 'react';
-import './business.css';
+import './Business.css';
 
 const business = {           //create an object to hold data for a business
   imageSrc: 'https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg',
@@ -25,7 +25,7 @@ class Business extends React.Component {
           <div className="Business-address">
             <p>{Business.address}</p>
             <p>{Business.city}</p>
-            <p>{Business.state} {Bueiness.zipCode}</p>
+            <p>{Business.state} {Business.zipCode}</p>
           </div>
           <div className="Business-reviews">
             <h3>{Business.category}</h3>
