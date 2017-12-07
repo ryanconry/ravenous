@@ -2,7 +2,7 @@ const clientId = 'uXSVu2ldBncOGMcvI9SW2Q';
 const secret = 'CqZmd3WRqA12BEDeE4Eg6PNEXDWPRcuDaGbIah9eHimg8i7RGiWNwSfNCTO2v8yr';
 let accessToken = '';
 
-export const Yelp = {
+const Yelp = {
   getAccessToken(){
     if(accessToken){
       return new Promise(resolve => resolve(accessToken));
@@ -38,3 +38,4 @@ export const Yelp = {
       });
     }
 }
+export default Yelp;
